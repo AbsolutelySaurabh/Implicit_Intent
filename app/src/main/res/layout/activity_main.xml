@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.absolutelysaurabh.implicit_intents.MainActivity">
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_web"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="OpenHomePage"
+        android:text="webpage"
+        android:textStyle="bold"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_send"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="send"
+        android:textStyle="bold"
+        android:onClick="Use_Send"
+        />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/button_camera"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="CAMERA"
+        android:textStyle="bold"
+        android:onClick="Use_Camera"
+        />
+
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/map"
+        android:layout_width="match_parent"
+        android:layout_margin="20dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:onClick="open_map"
+        android:text="Map"
+        android:textStyle="bold"
+        />
+
+
+
+
+</LinearLayout>
